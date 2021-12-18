@@ -1,0 +1,23 @@
+ISS Assignment 4 tutorial on 22/11/2019
+
+pyspark --conf spark.ui.port=4041 // if you dont get an error message if the 
+spark 2.1.1
+python 2.7.12
+
+flatmap - one to many transformations
+
+.take(3) - an action that gives back the first 3 rows, way to check 
+
+
+Q. how to I ssh into a compute node?? - ssh node8
+
+COMMANDS
+
+1. hdfs dfs -ls /user/simmhan/ml/full ---> to check the contents of this folder
+2. hdfs dfs -cat /user/simmhan/ml/small/README.txt ---> to read the contents of the file named README.txt
+3. movies_ratings=dataset.join(ratings, dataset.movieId==ratings.movieId, how='full') ---> to join the data sets
+4.ratings_split_rearranged=ratings_split.map(lambda l:(l[1],l)) --> this is to rearrange according, first keep moviesid and then others
+5.merged_data=movies_split_rearranged.join(ratings_split_rarranged)
+
+
+

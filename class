@@ -1,0 +1,6 @@
+class Persons:
+	def say_hi(self):
+		print("Hi")
+
+new_person=Persons()
+new_person.say_hi
