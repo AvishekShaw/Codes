@@ -1,0 +1,7 @@
+\* Advertising_Budget *\
+Minimize
+OBJ: _theme_1 + _theme_2
+Subject To
+_C1: 2 _theme_1 + 8 _theme_2 >= 50
+_C2: 10 _theme_1 + _theme_2 >= 100
+End

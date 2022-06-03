@@ -1,0 +1,1 @@
+from .subpackage1.module5 import function2

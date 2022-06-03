@@ -1,0 +1,10 @@
+\* Coin_Production_problem *\
+Maximize
+OBJ: 0.1 _dime + _dollar + 0.05 _nickel + 0.01 _penny + 0.25 _quarter
+Subject To
+_C1: 2.1 _dime + 7.2 _dollar + 3.8 _nickel + 0.06 _penny + 5.2 _quarter
+ <= 1000
+_C2: 0.2 _dime + 0.2 _dollar + 1.2 _nickel + 0.5 _quarter <= 50
+_C3: 0.5 _dollar + 2.4 _penny <= 50
+_C4: 0.3 _dollar <= 50
+End
