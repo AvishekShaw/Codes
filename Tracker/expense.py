@@ -83,4 +83,4 @@ print(row)
 file_path = "/home/avishek/Documents/expense_tracker.csv"
 with open(file_path,"a") as f:
     csvwriter = csv.writer(f)
-    csvwriter.writerow(fields)
+    csvwriter.writerow(row)
